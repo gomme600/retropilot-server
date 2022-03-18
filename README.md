@@ -1,3 +1,17 @@
+#Raspberry pi version for docker (arm64)
+
+Mount
+
+/retropilot-server/config.js
+/retropilot-server/database.sqlite
+/retropilot-server/realdata
+
+to local storage to avoid loosing data when restarting the container.
+
+Built image available on dockerhub : https://hub.docker.com/repository/docker/gomme600/retropilot_server
+
+
+
 # retropilot-server
 Replacement for comma.ai backend and useradmin dashboard. Bundled with a modified version of comma's cabana to allow viewing & analyzing drives.
 
